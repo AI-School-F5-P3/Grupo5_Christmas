@@ -1,11 +1,16 @@
+import os
 import openai
+from dotenv import load_dotenv
 
-openai.api_key = "your_openai_api_key"
+load_dotenv()
 
-def generate_postcard(prompt):
+openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+openai.api_base = os.getenv("DALLE_ENDPOINT")
+openai.api_version = "2024-02-01"
+
+def generate_image(prompt):
     response = openai.Image.create(
-        prompt=prompt,
-        n=1,
-        size="1024x1024"
+        engine="dall-e-3",
+        prompt=prompt
     )
     return response['data'][0]['url']

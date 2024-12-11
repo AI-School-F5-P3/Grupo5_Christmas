@@ -1,6 +1,12 @@
+import os
 import openai
+from dotenv import load_dotenv
 
-openai.api_key = "your_openai_api_key"
+load_dotenv()
+
+openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+openai.api_base = os.getenv("GPT4_ENDPOINT")
+openai.api_version = "2024-08-01-preview"
 
 def generate_recipes(prompt):
     response = openai.Completion.create(
