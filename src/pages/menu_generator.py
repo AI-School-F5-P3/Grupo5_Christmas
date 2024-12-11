@@ -12,3 +12,5 @@ def show():
             st.write(recipes)
         else:
             st.error("Please enter a prompt.")
+
+        
