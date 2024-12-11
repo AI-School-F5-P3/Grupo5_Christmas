@@ -1,0 +1,27 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.venv/
+.venv
+venv
+
+# macOS specific
+.DS_Store
+
+# Streamlit specific
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
