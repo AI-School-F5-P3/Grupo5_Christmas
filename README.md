@@ -1,7 +1,7 @@
 # 🎄 **HoHoBites** 🦌🍽️
 *Cook like Santa’s sleigh, feast like a king!*
 
-
+![Imagen HoHoBites](src/images/HoHoBites.png)
 
 
 **HoHoBites** es una aplicación navideña creada para ayudar a los organizadores de las cenas y comidas de Navidad a generar recetas personalizadas. Basándose en un conjunto de parámetros proporcionados por el usuario, como el número de asistentes, la cantidad de niños, los alérgenos, los países de origen y las religiones de los invitados, esta app crea menús adaptados tanto para adultos como para niños.
