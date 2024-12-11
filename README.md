@@ -12,7 +12,7 @@ Además de generar recetas, la app permite crear invitaciones virtuales personal
 - **🍴 Generación de recetas**: Crea menús personalizados para Navidad basados en las preferencias de los asistentes (adultos y niños).
 - **👶 Menús para niños**: Genera un menú específico para los más pequeños, adaptado a sus gustos y necesidades.
 - **🎨 Imágenes personalizadas**: Crea imágenes navideñas personalizadas para las recetas y las invitaciones, usando **DALL·E**.
-- **🎶 Música personalizada**: Genera música única para las invitaciones y felicitaciones navideñas con **Zuno**.
+- **🎶 Música personalizada**: Genera música única para las invitaciones y felicitaciones navideñas con **Suno**.
 - **🎁 Invitaciones navideñas**: Diseña invitaciones personalizadas con la opción de confirmar asistencia y enviar felicitaciones a los invitados.
 
 ## 🎄 **¿Cómo funciona?**
