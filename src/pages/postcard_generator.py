@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.dalle_utils import generate_postcard
+from utils.dalle_utils import generate_image
 from utils.gpt4_utils import generate_email_text
 
 def show():
@@ -9,7 +9,7 @@ def show():
 
     if st.button("Generate Postcard"):
         if prompt:
-            postcard_url = generate_postcard(prompt)
+            postcard_url = generate_image(prompt)
             st.image(postcard_url, caption="Generated Postcard")
             
             email_text = generate_email_text(prompt)
